@@ -1,11 +1,12 @@
+import { Toggle } from "./toggle";
 import { Wrapper } from "./wrapper";
 
 const Sidebar = () => {
-    return ( 
-        <Wrapper>
-            SideBar!
-        </Wrapper>
-     );
-}
- 
+  return (
+    <Wrapper>
+      <Toggle />
+    </Wrapper>
+  );
+};
+
 export default Sidebar;
